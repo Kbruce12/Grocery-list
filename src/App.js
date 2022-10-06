@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage';
 
 function App() {
   return (
-    <div className='wrapper'>
+    <div>
 		<Routes>
 			<Route
 			path="/"

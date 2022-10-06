@@ -1,13 +1,14 @@
 const LandingPage = () => {
     return (
         <div className="logInPage">
-            <header>
-                <h1>Grocery List</h1>
-            </header>
-            <main>
-                <h2>Log in</h2>
-                <section>
-                    <fieldset>
+            <div className="wrapper">
+                <header>
+                    <h1>Grocery List</h1>
+                </header>
+                <main>
+                    <h2>Log in</h2>
+                    <section>
+                        <fieldset>
                         <label className="sr-only">Enter User Name</label>
                         <input 
                             id="username"
@@ -21,9 +22,10 @@ const LandingPage = () => {
                         // value={userInputPassword}
                         />
                         <button>Get Started</button>
-                    </fieldset>
-                </section>
-            </main>
+                        </fieldset>
+                    </section>
+                </main>
+            </div>
         </div>
     )
 }
