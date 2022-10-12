@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.html {
+  font-size: 125%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}/*# sourceMappingURL=baseStyles.css.map */

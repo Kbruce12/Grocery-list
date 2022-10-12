@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.inventory-page {
+    background-color: $purpleColour;
+    height: 100vh;
+    color: $whiteColour;
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        h1 {
+            margin-left: 20px;
+            font-size: 4rem;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                margin-right: 12px;
+            }
+        }
+    }
+}

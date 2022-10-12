@@ -1,6 +1,7 @@
 import './App.scss';
 import { Routes, Route } from "react-router-dom";
 import LandingPage from './components/LandingPage';
+import Inventory from './components/Inventory';
 
 
 function App() {
@@ -13,7 +14,12 @@ function App() {
 				<LandingPage />
 				}
 			/>
-			<Route/>
+			<Route
+			path="/Inventory"
+			element={
+				<Inventory />
+			}
+			/>
 			<Route/>
 		</Routes>
     </div>

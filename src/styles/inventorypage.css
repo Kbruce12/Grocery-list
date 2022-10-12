@@ -1,0 +1,21 @@
+.inventory-page {
+  background-color: rgb(186, 136, 187);
+  height: 100vh;
+  color: whitesmoke;
+}
+.inventory-page header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.inventory-page header h1 {
+  margin-left: 20px;
+  font-size: 4rem;
+}
+.inventory-page header ul {
+  display: flex;
+  list-style-type: none;
+}
+.inventory-page header ul li {
+  margin-right: 12px;
+}/*# sourceMappingURL=inventorypage.css.map */
